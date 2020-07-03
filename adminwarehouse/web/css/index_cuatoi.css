@@ -1,0 +1,11 @@
+.head_storage{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.img-stored{
+    width: 530px;
+    height: 360px;
+    margin: 10px 10px 10px 10px;
+}

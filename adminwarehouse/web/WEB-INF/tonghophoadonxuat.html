@@ -1,0 +1,103 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>tổng hợp hóa đơn xuất</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body style="background-color: #F5F5DC;">
+	<h3 style="padding-left: 180px; padding-bottom: 30px; color: red;">TỔNG
+		HỢP HÓA ĐƠN XUẤT</h3>
+
+	<form style="padding-left: 30px;" class="col-sm">
+		<div style="margin-left: 150px;">
+			<div class="form-inline">
+				<div>
+					<label for="exampleInputName2">Ngày lập</label> <input type="text"
+						class="form-control" id="exampleInputName2" style="width: 300px;"
+						placeholder=""> <label for="exampleInputEmail2"
+						style="margin-left: 255px;">Mã SP</label> <input type="email"
+						class="form-control" id="exampleInputEmail2" style="width: 300px;"
+						placeholder="">
+
+				</div>
+				<div class="form-inline" style="padding-top: 30px;">
+					<label for="exampleInputName2">Loại HD</label> <input type="text"
+						class="form-control" id="exampleInputName2" placeholder=""
+						style="width: 300px; margin-left: 6px;"> <label
+						for="exampleInputEmail2" style="margin-left: 250px;">Loại
+						Sp</label> <input type="email" class="form-control"
+						id="exampleInputEmail2" placeholder="" style="width: 300px;">
+				</div>
+				<div class="form-inline" style="padding-top: 30px;">
+					<label for="exampleInputName2">Mã NV</label> <input type="text"
+						class="form-control" id="exampleInputName2" placeholder=""
+						style="width: 300px; margin-left: 14px;"">
+				</div>
+				<div class="form-inline" style="margin-top: 30px; ">
+					<label "> <input type="radio" name="optionsRadios"
+						id="optionsRadios1" value="option1" checked> Ngày
+					</label>
+					<label style="padding-left: 80px;"> <input type="radio" name="optionsRadios"
+						id="optionsRadios1" value="option1" checked> Tuần
+					</label>
+					<label style="padding-left: 80px;"> <input type="radio" name="optionsRadios"
+						id="optionsRadios1" value="option1" checked> Tháng
+					</label>
+					<label style="padding-left: 80px;"> <input type="radio" name="optionsRadios"
+						id="optionsRadios1" value="option1" checked> Năm
+					</label>
+					<label style="padding-left: 80px;"> <input type="radio" name="optionsRadios"
+						id="optionsRadios1" value="option1" checked> Tất cả
+					</label>
+					
+				</div>
+
+				<div>
+					<h5 style="padding-top: 30px; padding-bottom: 30px; color: red;">Danh
+						sách sản phẩm</h5>
+					<div class="row" style="width: 1000px; background: white;">
+						<table class="table table-bordered" style="text-align: center;">
+							<thead>
+								<tr style="text-align: center; border-color: resize:;">
+									<th scope="col" style="text-align: center;">STT</th>
+									<th scope="col" class="" style="text-align: center;">Mã SP</th>
+									<th scope="col" class="" style="text-align: center;">Tên
+										SP</th>
+									<th scope="col" class="" style="text-align: center;">Loại
+										SP</th>
+									<th scope="col" class="" style="text-align: center;">Số
+										lượng</th>
+									<th scope="col" class="" style="text-align: center;">Giá</th>
+								</tr>
+							</thead>
+
+						</table>
+
+					</div>
+				</div>
+				<div style="margin-top: 30px; padding-left: 800px;">
+					<label>Thành tiền: </label>
+				</div>
+				<div class="form-inline" style="margin-top: 60px;">
+					<button type="submit" class="btn btn-default"
+						style="background: #7FFFD4">Lưu</button>
+					<button type="submit" class="btn btn-default"
+						style="background: #7FFFD4">In</button>
+
+				</div>
+
+			</div>
+		</div>
+	</form>
+	<script type="text/javascript" src="Bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
